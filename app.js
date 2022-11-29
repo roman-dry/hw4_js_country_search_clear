@@ -37,7 +37,7 @@ function renderCountries(countries) {
 		return acc + `<tr>
 				<td>${country.name}</td>
 				<td>${country.population}</td>
-				<td>${country.region}<td/>
+				<td>${country.region}</td>
 				<td>${country.area}</td>
 			</tr>`         
 	}, '');
